@@ -1,10 +1,11 @@
 {
   "name": "@boywithkeyboard/vultr.js",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Samuel Kopp (https://samuelkopp.de)",
   "license": "Apache-2.0",
   "description": "A type-safe JavaScript SDK for Vultr.",
   "funding": "https://github.com/sponsors/boywithkeyboard",
+  "repository": "github:boywithkeyboard/vultr.js",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
