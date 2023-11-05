@@ -8,17 +8,17 @@
 #### Deno
 
 ```ts
-import { Vultr } from 'https://esm.sh/vultr.js'
+import { Vultr } from 'https://esm.sh/@boywithkeyboard/vultr.js'
 ```
 
 #### Node.js
 
 ```bash
-npm i vultr.js
+npm i @boywithkeyboard/vultr.js
 ```
 
 ```ts
-import { Vultr } from 'vultr.js'
+import { Vultr } from '@boywithkeyboard/vultr.js'
 ```
 
 ### Usage
