@@ -31,7 +31,7 @@
     "check": "tsc"
   },
   "dependencies": {
-    "openapi-fetch": "^0.8.1"
+    "openapi-fetch": "^0.8.2"
   },
   "devDependencies": {
     "@boywithkeyboard/builder": "^0.4.2",
