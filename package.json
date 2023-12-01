@@ -1,11 +1,11 @@
 {
-  "name": "@boywithkeyboard/vultr.js",
-  "version": "1.0.0",
+  "name": "openapi-vultr",
+  "version": "2.0.0",
   "author": "Samuel Kopp (https://samuelkopp.de)",
   "license": "Apache-2.0",
-  "description": "A type-safe JavaScript SDK for Vultr.",
+  "description": "An OpenAPI client for Vultr's API written in TypeScript.",
   "funding": "https://github.com/sponsors/boywithkeyboard",
-  "repository": "github:boywithkeyboard/vultr.js",
+  "repository": "github:boywithkeyboard/openapi-vultr",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -16,6 +16,16 @@
   ],
   "exports": {
     ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./v2": {
       "import": {
         "types": "./dist/index.d.ts",
         "default": "./dist/index.mjs"

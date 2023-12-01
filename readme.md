@@ -1,30 +1,19 @@
-## vultr.js
-
-> [!NOTE]  
-> vultr.js is merely a preconfigured instance of [openapi-fetch](https://github.com/drwpow/openapi-typescript/tree/main/packages/openapi-fetch), based on the official OpenAPI schema by Vultr.
+## openapi-vultr
 
 ### Setup
 
-#### Deno
-
-```ts
-import { Vultr } from 'https://esm.sh/@boywithkeyboard/vultr.js'
-```
-
-#### Node.js
-
 ```bash
-npm i @boywithkeyboard/vultr.js
+npm i openapi-vultr
 ```
 
 ```ts
-import { Vultr } from '@boywithkeyboard/vultr.js'
+import { createClient } from 'openapi-vultr/v2'
 ```
 
 ### Usage
 
 ```ts
-const client = new Vultr({
+const client = new createClient({
   token: '...'
 })
 ```
